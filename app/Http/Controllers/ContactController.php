@@ -9,7 +9,7 @@ use App\Http\Controllers\Controller;
 class ContactController extends Controller
 {
     //
-    function addMessage(Request $request){
+    public function addMessage(Request $request){
         // search for validation 
             $data = $request->all();
             $message = new Message;
