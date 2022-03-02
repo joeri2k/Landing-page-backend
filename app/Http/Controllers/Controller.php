@@ -9,6 +9,7 @@ use Illuminate\Routing\Controller as BaseController;
 use App\Http\Middleware\corsMiddleware;
 
 
+
 class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
